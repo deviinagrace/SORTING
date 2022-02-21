@@ -13,6 +13,8 @@ Data setelah disusun dari kecil ke besar (Ascending):
 5 10 20 22 25 30 35 40
   
 
+
+
 SELECTION SORT
 
 -Penjelasan:
@@ -26,6 +28,9 @@ Data setelah disusun dari kecil ke besar (Ascending):
 5 10 20 22 25 30 35 40
   
 
+
+
+
 INSERTION SORT
 
 -Penjelasan:
@@ -38,6 +43,8 @@ Data setelah disusun dari kecil ke besar (Ascending):
 
 5 10 20 22 25 30 35 40
   
+
+
 
 CHALLENGE
 
