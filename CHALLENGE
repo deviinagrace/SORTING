@@ -1,0 +1,78 @@
+#include <stdio.h>
+
+//BUBBLE SORT
+/*void tukar(int *a, int *b)
+{
+    int sementara = *a;
+    *a = *b;
+    *b = sementara;
+}
+
+void bubbleSort(int array[], int size)
+{
+    for(int i=1; i<size; i++)
+    {
+        for(int j=size-1; j>=i; j--)
+        {
+            if(array[j]<array[j-1])//kalo mau descending tanda < diganti >
+            tukar(&array[j], &array[j-1]);
+        }
+    }
+}
+
+void cetakArray(int array[], int size)
+{
+    for(int i=0; i<size; i++)
+    {
+        printf("%d", array[i]);
+    }
+    printf("\n");
+}
+
+int main()
+{
+    int data[] ={23, 65, 30, 8, 33, 24, 76, 7};
+    int size = sizeof(data)/sizeof(data[0]);
+    bubbleSort(data, size);
+    printf("Data setelah disusun dari kecil ke besar (Ascending): \n");
+    cetakArray(data, size);
+}*/
+
+
+//EXCHANGE SORT
+void tukar(int *a, int *b)
+{
+    int sementara = *a;
+    *a = *b;
+    *b = sementara;
+}
+
+void exchangeSort(int array[], int size)
+{
+    for(int i=0; i<size-1; i++)
+    {
+        for(int j=(i+1); j<size; j++)
+        {
+            if(array[i]>array[j])//kalo mau descending tanda < diganti >
+            tukar(&array[i], &array[j]);
+        }
+    }
+}
+
+void cetakArray(int array[], int size)
+{
+    for(int i=0; i<size; i++)
+    {
+        printf("%d", array[i]);
+    }
+    printf("\n");
+}
+
+int main()
+{
+    int data[] ={23, 65, 30, 8, 33, 24, 76, 7};
+    int size = sizeof(data)/sizeof(data[0]);
+    exchangeSort(data, size);
+    printf("Data setelah disusun dari kecil ke besar (Ascending): \n");
+    cetakArray(data, size);
+}
