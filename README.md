@@ -11,8 +11,6 @@ Bubble sort mengurutkan data dengan cara membandingkan elemen sekarang dengan el
 Data setelah disusun dari kecil ke besar (Ascending):
 
 5 10 20 22 25 30 35 40
-  
-
 
 
 SELECTION SORT
@@ -28,9 +26,6 @@ Data setelah disusun dari kecil ke besar (Ascending):
 5 10 20 22 25 30 35 40
   
 
-
-
-
 INSERTION SORT
 
 -Penjelasan:
@@ -43,7 +38,6 @@ Data setelah disusun dari kecil ke besar (Ascending):
 
 5 10 20 22 25 30 35 40
   
-
 
 
 CHALLENGE
