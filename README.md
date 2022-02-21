@@ -1,11 +1,16 @@
 # SORTING
 
 BUBBLE SORT
+
 -Penjelasan:
-  Bubble sort mengurutkan data dengan cara membandingkan elemen sekarang dengan elemen berikutnya. Atau juga menggeser satu per satu elemen dari kanan ke kiri atau sebaliknya tergantung jenis pengurutannya. Bubble Sort berhenti jika seluruh array telah diperiksa dan tidak ada pertukaran lagi atau sudah tercapai pengurutan yg diinginkan.
+
+Bubble sort mengurutkan data dengan cara membandingkan elemen sekarang dengan elemen berikutnya. Atau juga menggeser satu per satu elemen dari kanan ke kiri atau sebaliknya tergantung jenis pengurutannya. Bubble Sort berhenti jika seluruh array telah diperiksa dan tidak ada pertukaran lagi atau sudah tercapai pengurutan yg diinginkan.
+
 -Printscreen Hasil:
-  Data setelah disusun dari kecil ke besar (Ascending):
-  5 10 20 22 25 30 35 40
+
+Data setelah disusun dari kecil ke besar (Ascending):
+
+5 10 20 22 25 30 35 40
   
 SELECTION SORT
 -Penjelasan:
